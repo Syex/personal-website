@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -9,10 +9,12 @@ export const headerData = {
     { text: 'Blog', href: '#blog' },
     { text: 'Github', href: 'https://github.com/onwidget' },
   ],
-  actions: [{
-    text: 'Hire me',
-    href: '#',
-  },],
+  actions: [
+    {
+      text: 'Hire me',
+      href: '#',
+    },
+  ],
 };
 
 export const footerData = {
