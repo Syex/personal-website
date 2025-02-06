@@ -24,6 +24,9 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
 
+  site: 'https://syex.github.io',
+  base: 'personal-website',
+
   integrations: [
     tailwind({
       applyBaseStyles: false,

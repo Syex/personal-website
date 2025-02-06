@@ -1,7 +1,7 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
-  base: '/'
+  name: Tom Seifert
+  site: 'https://syex.github.io'
+  base: '/personal-website/'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
@@ -33,11 +33,11 @@ i18n:
 
 apps:
   blog:
-    isEnabled: true
+    isEnabled: false
     postsPerPage: 6
 
     post:
-      isEnabled: true
+      isEnabled: false
       permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
       robots:
         index: true
@@ -60,7 +60,7 @@ apps:
       robots:
         index: false
 
-    isRelatedPostsEnabled: true
+    isRelatedPostsEnabled: false
     relatedPostsCount: 4
 
 analytics:
