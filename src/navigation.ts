@@ -15,6 +15,7 @@ export const headerData = {
       href: '#',
     },
   ],
+  showRssFeed: false,
 };
 
 export const footerData = {
