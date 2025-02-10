@@ -26,6 +26,7 @@ export default defineConfig({
 
   site: 'https://syex.github.io',
   base: 'personal-website',
+  trailingSlash: 'never',
 
   integrations: [
     tailwind({
