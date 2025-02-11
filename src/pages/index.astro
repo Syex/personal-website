@@ -5,8 +5,8 @@ import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Steps from '~/components/widgets/Steps.astro';
-import { getPermalink } from '~/utils/permalinks';
 import Features from '~/components/widgets/Features.astro';
+import { contactEmail } from '~/utils/globals';
 
 const metadata = {
   title: 'Tom Seifert - Freelancer',
@@ -19,7 +19,7 @@ const metadata = {
   <Hero
     id="hero"
     title="Tom Seifert"
-    actions={[{ variant: 'primary', target: '_blank', text: 'Hire me', href: getPermalink('/contact#form') }]}
+    actions={[{ variant: 'primary', target: '_blank', text: 'Contact me', href: `mailto:${contactEmail}` }]}
   >
     <Fragment slot="tagline">
       Freelancer for app development

@@ -21,9 +21,7 @@ export const headerData = {
 
 export const footerData = {
   links: [],
-  secondaryLinks: [
-    { text: 'Imprint', href: getPermalink('/imprint') }
-  ],
+  secondaryLinks: [{ text: 'Imprint', href: getPermalink('/imprint') }],
   socialLinks: [
     /**
      * { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
