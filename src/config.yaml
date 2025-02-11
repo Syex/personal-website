@@ -4,28 +4,25 @@ site:
   base: '/personal-website'
   trailingSlash: false
 
-  googleSiteVerificationId:
+  googleSiteVerificationId: false
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Tom Seifert 
+    template: '%s'
+  description: "Your expert for Kotlin Multiplatform and native Android development."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Tom Seifert
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/chilled_cropped.png'
         width: 1200
         height: 628
     type: website
-  twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
-    cardType: summary_large_image
+  
 
 i18n:
   language: en
@@ -43,19 +40,19 @@ apps:
         index: true
 
     list:
-      isEnabled: true
+      isEnabled: false
       pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
       robots:
         index: true
 
     category:
-      isEnabled: true
+      isEnabled: false
       pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
       robots:
         index: true
 
     tag:
-      isEnabled: true
+      isEnabled: false
       pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
       robots:
         index: false
