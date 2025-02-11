@@ -22,8 +22,7 @@ export const headerData = {
 export const footerData = {
   links: [],
   secondaryLinks: [
-    { text: 'Imprint', href: getPermalink('/imprint') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Imprint', href: getPermalink('/imprint') }
   ],
   socialLinks: [
     /**
