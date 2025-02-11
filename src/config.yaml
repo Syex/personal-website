@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Tom Seifert 
+    default: Tom Seifert
     template: '%s'
-  description: "Your expert for Kotlin Multiplatform and native Android development."
+  description: 'Your expert for Kotlin Multiplatform and native Android development.'
   robots:
     index: true
     follow: true
@@ -22,7 +22,6 @@ metadata:
         width: 1200
         height: 628
     type: website
-  
 
 i18n:
   language: en
