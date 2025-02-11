@@ -4,10 +4,11 @@ export const headerData = {
   links: [
     { text: 'Home', href: '#' },
     { text: 'About', href: '#about' },
-    { text: 'Resume', href: '#resume' },
-    { text: 'Porfolio', href: '#porfolio' },
-    { text: 'Blog', href: '#blog' },
-    { text: 'Github', href: 'https://github.com/onwidget' },
+    { text: 'Services', href: '#services' },
+    { text: 'Skills', href: '#skills' },
+    { text: 'Experience', href: '#experience' },
+    { text: 'Blog', href: 'https://medium.com/@Syex' },
+    { text: 'Github', href: 'https://github.com/Syex' },
   ],
   actions: [
     {
