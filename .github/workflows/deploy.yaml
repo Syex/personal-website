@@ -22,6 +22,7 @@ jobs:
         uses: withastro/action@v3
         env: 
           PUBLIC_CONTACT_EMAIL: ${{ secrets.PUBLIC_CONTACT_EMAIL }}
+          PUBLIC_CONTACT_PHONE: ${{ secrets.PUBLIC_CONTACT_PHONE }}
 
   deploy:
     needs: build

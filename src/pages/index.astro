@@ -7,6 +7,8 @@ import Features3 from '~/components/widgets/Features3.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Features from '~/components/widgets/Features.astro';
 import { contactEmail } from '~/utils/globals';
+import { contactPhone } from '~/utils/globals';
+import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
   title: 'Tom Seifert - Freelancer',
@@ -19,7 +21,7 @@ const metadata = {
   <Hero
     id="hero"
     title="Tom Seifert"
-    actions={[{ variant: 'primary', target: '_blank', text: 'Contact me', href: `mailto:${contactEmail}` }]}
+    actions={[{ variant: 'primary', target: '_blank', text: 'Send me a mail', href: `mailto:${contactEmail}` }]}
   >
     <Fragment slot="tagline">
       Freelancer for app development
@@ -243,5 +245,27 @@ const metadata = {
       },
     ]}
     classes={{ container: 'max-w-3xl' }}
+  />
+
+  <Features2
+    id="contact"
+    title="Contact"
+    items={[
+      {
+        title: 'Phone',
+        description: contactPhone,
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'E-Mail',
+        description: contactEmail,
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Location',
+        description: 'Dortmund, Germany',
+        icon: 'tabler:map-pin',
+      },
+    ]}
   />
 </Layout>

@@ -12,8 +12,8 @@ export const headerData = {
   ],
   actions: [
     {
-      text: 'Hire me',
-      href: '#',
+      text: 'Contact me',
+      href: `#contact`,
     },
   ],
   showRssFeed: false,
