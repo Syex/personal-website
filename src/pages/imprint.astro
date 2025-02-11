@@ -1,0 +1,29 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import { contactEmail } from '~/utils/globals';
+import { contactAddressBase64 } from '~/utils/globals';
+---
+
+<Layout>
+  <Content title="Imprint">
+    <Fragment slot="content">
+      <p>Information according to § 5 TMG</p>
+      <br />
+      <p>
+        <b>Contact</b>
+        <img src=`${contactAddressBase64}` alt="Address" />
+      </p>
+      <br />
+      <p>
+        <b>E-Mail:</b>
+        {contactEmail}
+      </p>
+      <br />
+      <p>
+        <b>Consumer dispute resolution/universal arbitration centre</b><br />
+        I am not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.
+      </p>
+    </Fragment>
+  </Content>
+</Layout>

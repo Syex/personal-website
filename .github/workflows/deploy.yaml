@@ -23,6 +23,7 @@ jobs:
         env: 
           PUBLIC_CONTACT_EMAIL: ${{ secrets.PUBLIC_CONTACT_EMAIL }}
           PUBLIC_CONTACT_PHONE: ${{ secrets.PUBLIC_CONTACT_PHONE }}
+          PUBLIC_CONTACT_ADDRESS: ${{ secrets.PUBLIC_CONTACT_ADDRESS }}
 
   deploy:
     needs: build
