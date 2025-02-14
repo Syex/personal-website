@@ -1,7 +1,6 @@
 site:
   name: Tom Seifert
-  site: 'https://syex.github.io'
-  base: '/personal-website'
+  site: 'https://tpseifert.de'
   trailingSlash: false
 
   googleSiteVerificationId: false

@@ -24,8 +24,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
 
-  site: 'https://syex.github.io',
-  base: 'personal-website',
+  site: 'https://tpseifert.de',
   trailingSlash: 'never',
 
   integrations: [
