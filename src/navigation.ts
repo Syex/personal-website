@@ -2,18 +2,18 @@ import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    { text: 'Home', href: '#' },
-    { text: 'About', href: '#about' },
-    { text: 'Services', href: '#services' },
-    { text: 'Skills', href: '#skills' },
-    { text: 'Experience', href: '#experience' },
+    { text: 'Home', href: '/#' },
+    { text: 'About', href: '/#about' },
+    { text: 'Services', href: '/#services' },
+    { text: 'Skills', href: '/#skills' },
+    { text: 'Experience', href: '/#experience' },
     { text: 'Blog', href: 'https://medium.com/@Syex' },
     { text: 'GitHub', href: 'https://github.com/Syex' },
   ],
   actions: [
     {
       text: 'Contact me',
-      href: `#contact`,
+      href: '/#contact',
     },
   ],
   showRssFeed: false,
