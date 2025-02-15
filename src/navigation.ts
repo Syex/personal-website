@@ -8,7 +8,7 @@ export const headerData = {
     { text: 'Skills', href: '#skills' },
     { text: 'Experience', href: '#experience' },
     { text: 'Blog', href: 'https://medium.com/@Syex' },
-    { text: 'Github', href: 'https://github.com/Syex' },
+    { text: 'GitHub', href: 'https://github.com/Syex' },
   ],
   actions: [
     {
